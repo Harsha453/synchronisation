@@ -1,5 +1,5 @@
 package programs2;
-class Thread3 extends Thread{
+class Thread35 extends Thread{
 	
 }
 public class Threadpriority {
@@ -8,7 +8,7 @@ public class Threadpriority {
 		System.out.println(Thread.currentThread().getPriority());
 		Thread.currentThread().setPriority(8);
 		System.out.println(Thread.currentThread().getPriority());
-Thread3 t = new Thread3();
+Thread35 t = new Thread35();
 System.out.println(t.getPriority());
 // TODO Auto-generated method stub
 
