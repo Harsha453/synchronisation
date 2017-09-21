@@ -1,5 +1,5 @@
 package programs2;
-class myThread extends Thread{
+class myThread100 extends Thread{
 	public void run()
 	{
 		for(int i=0;i<10;i++)
@@ -22,7 +22,7 @@ class myThread extends Thread{
 public class Threadprogram {
 
 	public static void main(String[] args) {
-myThread t= new myThread();
+myThread100 t= new myThread100();
 t.start();
 t.run(5);
 for(int i=0;i<10;i++)
