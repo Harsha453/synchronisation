@@ -14,7 +14,7 @@ public class Threadwait {
 	public static void main(String[] args) throws InterruptedException {
 		thread45 t = new thread45();
 		t.start();
-		t.join(10000);
+		//t.join(10000);
 		for(int i=0;i<10;i++)
 		{
 			System.out.println("inside main");

@@ -18,7 +18,7 @@ class mythread67 extends Thread{
 		this.d=d;
 	}
 	public void run(){
-		d.wish(name);
+		synchronized(this){d.wish(name);}
 	}
 	
 }
